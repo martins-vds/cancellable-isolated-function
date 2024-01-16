@@ -34,7 +34,7 @@ Before running the Azure Function, make sure you have the following prerequisite
 To trigger the cancellation of the Azure Function after a specific number of seconds, send an HTTP GET request to the following endpoint:
 
 ```bash
-http://localhost:7156/api/cancel-me?wait=10
+http://localhost:7071/api/cancel-me?wait=10
 ```
 
 The `wait` query parameter specifies the number of seconds (between 1 and 30) to wait before completing the request. If the `wait` query parameter is not specified, the default value of 10 seconds is used.

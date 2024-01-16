@@ -13,13 +13,14 @@ Before running the Azure Function, make sure you have the following prerequisite
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/martins-vds/poc-az-function-isolated-worker.git
+    git clone https://github.com/martins-vds/cancellable-isolated-function.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd poc-az-function-isolated-worker
+    cd cancellable-isolated-function
+    # Again
     cd cancellable-isolated-function
     ```
 
